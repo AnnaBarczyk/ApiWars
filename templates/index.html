@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<p>{{ login_message }}</p>
+
+
+    <p> {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+<button type="submit" id="Previous">Previous</button>
+<button type="submit" id="Next">Next</button>
+
+<table class="table table-hover table-dark">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Diameter</th>
+        <th scope="col">Climate</th>
+        <th scope="col">Terrain</th>
+        <th scope="col">Surface water</th>
+        <th scope="col">Population</th>
+        <th scope="col">Residents</th>
+    </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+
+{% endblock %}
