@@ -1,5 +1,20 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
+import os
+import psycopg2
+import urllib
 import data_manager
+
+
+urllib.parse.uses_netloc.append('postgres')
+url = urllib.parse.urlparse(os.environ.get('DATABASE_URL'))
+connection = psycopg2.connect(
+    database=url.path[1:],
+    user=url.username,
+    password=url.password,
+    host=url.hostname,
+    port=url.port
+)
+
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
