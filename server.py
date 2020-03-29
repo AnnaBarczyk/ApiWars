@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 import os
 import psycopg2
+import psycopg2.extras
 import urllib
 import data_manager
 
@@ -14,6 +15,7 @@ connection = psycopg2.connect(
     host=url.hostname,
     port=url.port
 )
+
 
 
 app = Flask(__name__)
