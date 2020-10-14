@@ -2,7 +2,7 @@
 
 # API Wars
 
-Project purposes:<br />
+Project goals:<br />
 <br />
 -create a Flask backend project<br />
 -use routes with Flask<br />
