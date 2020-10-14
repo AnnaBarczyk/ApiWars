@@ -1,8 +1,22 @@
-# API Wars skeleton repository
+# API Wars
 
-This is a starting repository for the API Wars assignment in the Web Python module.
+Project purposes:
 
-You can check out the assignment in the curriculum:  
-https://learn.code.cool/web-python/#/../assignments/web/api-wars
+-create a Flask backend project
+-use routes with Flask
+-use Bootstrap
+-simple queries in SQL
+-use AJAX for API requests
+-session handling
+-store passwords 
 
-This "skeleton" is intentionally empty. :)
+#### [I invite you to see the website!](https://apiwarsdzolw.herokuapp.com)
+
+## Technology 
+- Python 
+- Flask
+- Javascript
+- HTML, CSS
+
+## Status
+Unfortunetly, SWAPI Api is not maintained anymore, and the service is currently down. Only register and login works.
