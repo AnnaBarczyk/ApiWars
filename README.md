@@ -2,16 +2,16 @@
 
 # API Wars
 
-Project purposes:
-
--create a Flask backend project
--use routes with Flask
--use Bootstrap
--simple queries in SQL
--use AJAX for API requests
--session handling
--store passwords 
--learn to deploy project at Heroku
+Project purposes:<br />
+<br />
+-create a Flask backend project<br />
+-use routes with Flask<br />
+-use Bootstrap<br />
+-simple queries in SQL<br />
+-use AJAX for API requests<br />
+-session handling<br />
+-store passwords <br />
+-learn to deploy project at Heroku<br />
 
 
 
